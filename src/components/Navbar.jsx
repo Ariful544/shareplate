@@ -18,7 +18,7 @@ const Navbar = () => {
             })
     }
     return (
-        <div className="navbar max-w-screen-xl flex items-center py-2 text-white mx-auto font-open-sans">
+        <div className="navbar md:px-[105px] max-w-screen-2xl bg-[#E67E22] sticky top-0 z-50 flex items-center py-2 text-white mx-auto font-open-sans">
             <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                     <svg
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <ul
                     tabIndex={0}
                     className="menu menu-sm dropdown-content bg-primary rounded-box z-[50] mt-3 w-52 p-2 shadow">
-                    {links} 
+                    {links}
                 </ul>
             </div>
             <div className="flex-1">
