@@ -4,7 +4,7 @@ const PurposeAndGoal = () => {
     return (
         <div>
             <div className='space-y-6'>
-                <h2 className='text-5xl text-gray-700 font-bold text-center'>PURPOSE AND GOAL</h2>
+                <h2 className='md:text-5xl text-3xl text-gray-700 font-bold text-center'>PURPOSE AND GOAL</h2>
                 <p className='text-base'>The SharePlate Food Community of Practice is a space for national and regional organizations <br></br> to connect, learn, resource share.</p>
             </div>
             <div className="card grid md:grid-cols-2 grid-cols-1 lg:card-side my-20 bg-base-100 shadow-xl">

@@ -7,7 +7,7 @@ const Volunteers = () => {
     return (
         <div className=''>
             <div className='space-y-6'>
-                <h2 className='text-5xl text-gray-700 font-bold text-center'>OUR VOLUNTEERS</h2>
+                <h2 className='md:text-5xl text-3xl text-gray-700 font-bold text-center'>OUR VOLUNTEERS</h2>
                 <p className='text-base'>Join our community of food enthusiasts to share delicious meals, build connections, and<br></br> spread happiness one plate at a time.</p>
             </div>
             <div className='grid md:grid-cols-3 grid-cols-1 my-20 gap-6'>

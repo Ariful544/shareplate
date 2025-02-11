@@ -31,7 +31,7 @@ const FeaturedFoods = () => {
     return (
         <div className='text-gray-700'>
             <div className='flex flex-col space-y-4 justify-center items-center'>
-                <h2 className='text-5xl font-bold text-center'>Featured Foods</h2>
+                <h2 className='md:text-5xl text-3xl font-bold text-center'>Featured Foods</h2>
                 <p className='text-center text-lg mt-4'>Explore the best foods in the world</p>
                 <button onClick={toggleLayout} className='btn text-gray-100 bg-[#E67E22] hover:bg-primary'>Change Layout</button>
             </div>

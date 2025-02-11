@@ -13,6 +13,7 @@ const UpdateProfile = () => {
         updateUserProfile(name, photoUrl)
         .then(() => {
             toast.success('Profile Updated Successfully')
+            form.reset();
             navigate('/profile')
         })
     }
