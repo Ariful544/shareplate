@@ -4,6 +4,7 @@ import FeaturedFoods from '../components/FeaturedFoods';
 import { Link } from 'react-router-dom';
 import Volunteers from '../components/Volunteers';
 import Subscribe from '../components/Subscribe';
+import PurposeAndGoal from '../components/PurposeAndGoal';
 
 const Home = () => {
    
@@ -20,6 +21,9 @@ const Home = () => {
                     </div>
                     <div className='text-center mt-28'>
                         <Volunteers />
+                    </div>
+                    <div className='text-center mt-28'>
+                        <PurposeAndGoal />
                     </div>
                    <Subscribe/>
                 </div>
